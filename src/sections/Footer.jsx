@@ -82,9 +82,9 @@ export default function Footer() {
           <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">
             Contact
           </h3>
-          <p><span className="font-semibold">Phone:</span> +44 123 456 7890</p>
-          <p><span className="font-semibold">Email:</span> info@horganhomes.co.uk</p>
-          <p><span className="font-semibold">Address:</span> 12 King’s Road, London, UK</p>
+          <p><span className="font-semibold">Phone:</span> 01384 410810</p>
+          <p><span className="font-semibold">Email:</span> SALES@HORGANHOMES.CO.UK</p>
+          <p><span className="font-semibold">Address:</span> HORGAN HOMES & DEVELOPMENTS LTD, SUITE 2, ASH HOUSE, LYDIATE BUSINESS PARK, HALESOWEN ROAD, LYDIATE ASH, BROMSGROVE, B61 0QL</p>
         </div>
       </div>
 
