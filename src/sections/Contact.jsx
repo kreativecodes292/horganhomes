@@ -31,43 +31,43 @@ export default function Contact() {
       </motion.div>
 
       {/* CONTACT GRID */}
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 relative z-10">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-10 relative z-10 items-center">
         {/* Left: Contact Info */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-6 md:w-1/2"
+          className="flex flex-col gap-6 md:w-1/2 w-full"
         >
           {/* Phone */}
-          <div className="flex items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer w-full">
             <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center bg-[#C89B3C] text-[#111111] rounded-xl text-lg sm:text-xl">
               <FaPhoneAlt />
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h4 className="font-semibold text-[#C89B3C] text-sm sm:text-lg">Phone</h4>
               <p className="text-[#CFCFCF] mt-1 text-sm sm:text-base">01384 410810</p>
             </div>
           </div>
 
           {/* Email */}
-          <div className="flex items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer w-full">
             <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center bg-[#C89B3C] text-[#111111] rounded-xl text-lg sm:text-xl">
               <FaEnvelope />
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h4 className="font-semibold text-[#C89B3C] text-sm sm:text-lg">Email</h4>
               <p className="text-[#CFCFCF] mt-1 text-sm sm:text-base">SALES@HORGANHOMES.CO.UK</p>
             </div>
           </div>
 
           {/* Address */}
-          <div className="flex items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer">
+          <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4 bg-[#1C1C1C] rounded-2xl p-4 sm:p-6 shadow-lg border border-[#C89B3C]/20 hover:scale-105 transition-transform cursor-pointer w-full">
             <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center bg-[#C89B3C] text-[#111111] rounded-xl text-lg sm:text-xl">
               <FaMapMarkerAlt />
             </div>
-            <div>
+            <div className="text-center sm:text-left">
               <h4 className="font-semibold text-[#C89B3C] text-sm sm:text-lg">Address</h4>
               <p className="text-[#CFCFCF] mt-1 text-sm sm:text-base">
                 HORGAN HOMES & DEVELOPMENTS LTD, SUITE 2, ASH HOUSE, LYDIATE BUSINESS PARK, HALESOWEN ROAD, LYDIATE ASH, BROMSGROVE, B61 0QL
@@ -82,7 +82,7 @@ export default function Contact() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-4 sm:gap-6 md:w-1/2 bg-[#1C1C1C] rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl border border-[#C89B3C]/20"
+          className="flex flex-col gap-4 sm:gap-6 md:w-1/2 w-full bg-[#1C1C1C] rounded-3xl p-6 sm:p-8 md:p-10 shadow-2xl border border-[#C89B3C]/20"
         >
           <input
             type="text"
@@ -101,7 +101,7 @@ export default function Contact() {
           ></textarea>
           <button
             type="submit"
-            className="px-4 sm:px-6 py-2 sm:py-3 w-fit bg-[#C89B3C] text-black rounded-xl font-semibold hover:opacity-90 transition text-sm sm:text-base"
+            className="px-4 sm:px-6 py-2 sm:py-3 w-full sm:w-fit bg-[#C89B3C] text-black rounded-xl font-semibold hover:opacity-90 transition text-sm sm:text-base"
           >
             Send Message
           </button>
