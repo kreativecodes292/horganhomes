@@ -50,7 +50,7 @@ export default function Contact() {
             </div>
             <div>
               <h4 className="font-semibold text-[#C89B3C] text-lg">Phone</h4>
-              <p className="text-[#CFCFCF] mt-1">+44 123 456 7890</p>
+              <p className="text-[#CFCFCF] mt-1">01384 410810</p>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
             </div>
             <div>
               <h4 className="font-semibold text-[#C89B3C] text-lg">Email</h4>
-              <p className="text-[#CFCFCF] mt-1">info@horganhomes.co.uk</p>
+              <p className="text-[#CFCFCF] mt-1">SALES@HORGANHOMES.CO.UK</p>
             </div>
           </div>
 
@@ -73,7 +73,7 @@ export default function Contact() {
             <div>
               <h4 className="font-semibold text-[#C89B3C] text-lg">Address</h4>
               <p className="text-[#CFCFCF] mt-1">
-                12 King’s Road, London, UK
+                HORGAN HOMES & DEVELOPMENTS LTD, SUITE 2, ASH HOUSE, LYDIATE BUSINESS PARK, HALESOWEN ROAD, LYDIATE ASH, BROMSGROVE, B61 0QL
               </p>
             </div>
           </div>
