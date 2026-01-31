@@ -13,21 +13,64 @@ export default function Footer() {
 
         {/* About */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">Horgan Homes</h3>
+          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">
+            Horgan Homes
+          </h3>
+
           <p className="text-[#CFCFCF] text-sm md:text-base leading-relaxed">
-            Creating modern, luxurious, and sustainable homes with care, quality, and vision — making your dream home a reality.
+            Creating modern, luxurious, and sustainable homes with care, quality,
+            and vision — making your dream home a reality.
           </p>
+
+          {/* Social Icons */}
           <div className="flex items-center gap-4 mt-4">
-            <a className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"><FaFacebookF /></a>
-            <a className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"><FaInstagram /></a>
-            <a className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"><FaLinkedinIn /></a>
-            <a className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"><FaTwitter /></a>
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook"
+              className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"
+            >
+              <FaFacebookF />
+            </a>
+
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram"
+              className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"
+            >
+              <FaInstagram />
+            </a>
+
+            <a
+              href="https://linkedin.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn"
+              className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"
+            >
+              <FaLinkedinIn />
+            </a>
+
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Twitter"
+              className="p-3 rounded-full bg-[#C89B3C]/20 text-[#C89B3C] hover:bg-[#C89B3C] hover:text-[#111111] transition"
+            >
+              <FaTwitter />
+            </a>
           </div>
         </div>
 
         {/* Quick Links */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">Quick Links</h3>
+          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">
+            Quick Links
+          </h3>
           <a href="#home" className="hover:text-[#FFD166] transition">Home</a>
           <a href="#about" className="hover:text-[#FFD166] transition">About Us</a>
           <a href="#services" className="hover:text-[#FFD166] transition">Services</a>
@@ -36,7 +79,9 @@ export default function Footer() {
 
         {/* Contact Info */}
         <div className="flex flex-col gap-4">
-          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">Contact</h3>
+          <h3 className="text-xl md:text-2xl font-semibold text-[#C89B3C]">
+            Contact
+          </h3>
           <p><span className="font-semibold">Phone:</span> +44 123 456 7890</p>
           <p><span className="font-semibold">Email:</span> info@horganhomes.co.uk</p>
           <p><span className="font-semibold">Address:</span> 12 King’s Road, London, UK</p>
@@ -45,7 +90,10 @@ export default function Footer() {
 
       {/* Bottom Credit */}
       <div className="mt-12 border-t border-[#C89B3C]/20 pt-6 text-center text-sm text-[#6B7280]">
-        &copy; {new Date().getFullYear()} Horgan Homes. Design by <span className="text-[#C89B3C] font-semibold">Webblixo Tech Solutions</span>.
+        &copy; {new Date().getFullYear()} Horgan Homes. Design by{" "}
+        <span className="text-[#C89B3C] font-semibold">
+          Webblixo Tech Solutions
+        </span>.
       </div>
     </footer>
   );
